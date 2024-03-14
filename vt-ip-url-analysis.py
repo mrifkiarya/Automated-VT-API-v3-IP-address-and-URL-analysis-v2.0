@@ -36,7 +36,7 @@ and exposing your API key in the repository
 """
 
 # retrieve API key from .env file and store in a variable
-API_KEY = f941ac6f67a8bebb3f826ff80845c9bdeb5be103acfc033573b77a211506e8c0
+API_KEY = os.getenv("API_KEY1")
 
 
 # ////////////////////////////////// START Initiate the parser
